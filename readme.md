@@ -4,3 +4,6 @@
 - [Keypress event](https://kpisti18.github.io/12A_1cs_webprogramozas_2026-2027/002_keypress_event)
 - [Hangulat](https://kpisti18.github.io/12A_1cs_webprogramozas_2026-2027/003_hangulat)
 - [Mouseover] (http://127.0.0.1:5500/004_mouseover_event/index.html)
+- [jatekosnev] (http://127.0.0.1:5500/005_jatekosnev/index.html)
+- [zenevalaszto] (http://127.0.0.1:5500/006_zenevalaszto/index.html)
+- [uezenetszamlalo] (http://127.0.0.1:5500/007_uzenetszamlalo/index.html)

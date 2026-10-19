@@ -10,10 +10,10 @@ body {
     color: #233047;
     min-height: 100vh;
     padding: 20px;
+    /* FELADAT: A fő doboz középre igazítása flexszel. */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* FELADAT: A fő doboz középre igazítása flexszel. */
 }
 
 .container {

@@ -11,6 +11,10 @@ body {
     min-height: 100vh;
     padding: 20px;
     /* FELADAT: Flexszel igazítsd középre a fő dobozt mindkét irányban! */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .container {
@@ -21,12 +25,19 @@ body {
     border-radius: 18px;
     box-shadow: 0 8px 28px #183e3714;
     /* FELADAT: Függőleges flex elrendezés, 20px térközzel. */
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
 }
 
 .fejlec {
     /* FELADAT: Vízszintes flex elrendezés, függőleges középre igazítás.
        A cím balra, a MIX jelvény jobbra kerüljön, a köztük maradó
        szabad helyet oszd el! */
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
 }
 
 h1 {
@@ -49,6 +60,9 @@ h1 {
 
 .beallitasok {
     /* FELADAT: Függőleges flex elrendezés, 10px térközzel. */
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
 }
 
 label {
@@ -64,6 +78,7 @@ select {
     color: #183e37;
     font: inherit;
     /* FELADAT: Mutató kéz alakú egérkurzor. */
+    cursor: pointer;
 }
 
 .kartya {
@@ -74,6 +89,11 @@ select {
     /* FELADAT: Függőleges flex elrendezés, vízszintesen középre
        igazított gyermekelemekkel, 12px térközzel. */
     /* FELADAT: 12px-es sarokkerekítés. */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 12px;
 }
 
 .ikon {
