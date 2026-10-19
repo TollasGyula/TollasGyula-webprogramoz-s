@@ -10,6 +10,9 @@ body {
     color: #233047;
     min-height: 100vh;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* FELADAT: A fő doboz középre igazítása flexszel. */
 }
 
@@ -21,6 +24,10 @@ body {
     box-shadow: 0 8px 28px #23304714;
     /* FELADAT: Függőleges flex elrendezés, 20px térköz. */
     /* FELADAT: 16px-es sarokkerekítés. */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 16px;
 }
 
 h1 {
@@ -34,6 +41,9 @@ h1 {
 
 .beallitasok {
     /* FELADAT: Függőleges flex elrendezés, 10px térköz. */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 label {
@@ -57,6 +67,7 @@ button {
     color: white;
     font: inherit;
     /* FELADAT: Mutató kéz alakú egérkurzor. */
+    cursor: pointer;
 }
 
 .kartya {
@@ -65,6 +76,9 @@ button {
     border-radius: 12px;
     padding: 20px;
     /* FELADAT: Vízszintes flex elrendezés, függőleges középre igazítás, 16px térköz. */
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 .ikon {
